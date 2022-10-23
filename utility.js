@@ -90,6 +90,7 @@ function createModal(title, content) {
             document.querySelector('.modalOverlay').remove()
         }
     })
+    modal.style.marginTop = window.scrollY
     document.body.appendChild(modalOverlay)
 }
 

@@ -19,7 +19,6 @@ export function renderTopPlayersComponent(topPlayers) {
 
 export function sendResultToServer(moves, seconds, minutes) {
     if(!getLocalId() || !getUsernameFromLocalStorage()) return;
-    // mi ban pti arvi
 
     const userResult = {
         username: getUsernameFromLocalStorage(),
