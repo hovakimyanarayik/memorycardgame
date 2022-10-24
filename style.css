@@ -154,7 +154,7 @@ body {
 }
 
 .opened {
-    transform: translateY(50%) !important;
+    transform: translateY(40%) !important;
 }
 
 .modal {
